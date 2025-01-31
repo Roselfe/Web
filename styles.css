@@ -43,7 +43,7 @@ header .search-bar input {
 }
 
 .hero img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -72,13 +72,15 @@ header .search-bar input {
 
 .property-gallery, .development-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
     gap: 20px;
     margin-top: 20px;
 }
 
 .property img, .development img {
-    width: 100%;
+    width: 50%;
+    max-width: 50%;
+    height: auto;
     border-radius: 8px;
 }
 
